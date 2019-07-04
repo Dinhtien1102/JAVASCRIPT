@@ -81,7 +81,7 @@ chan(8)
 
 
 // Bài 5: Nhập 1 số hiển thị các ước của nó
-/* function showuoc(a){
+ function showuoc(a){
     for( i = 1; i <= a ; i++ ){
         if( a % i == 0 ){
             console.log(i)
@@ -92,7 +92,7 @@ chan(8)
     }
 }
 showuoc(98)
-*/
+
 
 // Bài 6: Nhập 1 số kiểm tra xem số đó số nguyên tố hay ko
 
