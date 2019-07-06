@@ -30,17 +30,18 @@
      
 */
 
-// Bài 1: Dùng for hiển thị 5 lần "hello world"
-// function hello() {
-//     for (i = 0; i < 5; i++) {
-//     console.log("Hello World !")
-//     }
-// }
-// hello()
+console.log("Bài 1: Dùng for hiển thị 5 lần hello world")
+function hello() {
+    var i;
+    for (i = 0; i < 5; i++) {
+    console.log("Hello World !")
+    }
+}
+hello()
 
 
-// Bài 2: Nhập 1 số kiểm tra đó là số chẵn hay số lẻ
-/* function chanle(a){
+console.log("Bài 2: Nhập 1 số kiểm tra đó là số chẵn hay số lẻ")
+ function chanle(a){
     if(a%2==0){
         console.log( a+ " Là Số Chẵn" )
     }
@@ -49,39 +50,37 @@
     }
 }
 chanle(9)
-*/
 
 
-// Bài 3: Nhập vào 1 số, hiển thị các số từ 1 tới chính nó
-/* function tangdan(a){
+
+console.log("Bài 3: Nhập vào 1 số, hiển thị các số từ 1 tới chính nó")
+ function tangdan(a){
     var i;
     for( i = 1 ; i <=a ; i++ ){
         console.log(i)
     }
 }
 tangdan(9)
-*/
 
 
 
-// Bài 4: Nhập 1 số hiển thị các số chẵn từ 1 tới chính nó: for
-/* function chan(a){
+
+console.log("Bài 4: Nhập 1 số hiển thị các số chẵn từ 1 tới chính nó: for")
+ function chan(a){
     var i;
     for( i = 0; i<= a; i++ ){
         if( i %2 == 0 ){
-            console.log(i + "Số Chẵn")
-        }
-        else{
-            console.log("Số Lẻ")
+            console.log(i)
         }
     }
 }
-chan(8)
-*/
+chan(6)
 
 
-// Bài 5: Nhập 1 số hiển thị các ước của nó
+
+console.log("Bài 5: Nhập 1 số hiển thị các ước của nó")
  function showuoc(a){
+    var i;  
     for( i = 1; i <= a ; i++ ){
         if( a % i == 0 ){
             console.log(i)
@@ -91,26 +90,51 @@ chan(8)
         }
     }
 }
-showuoc(98)
+showuoc(8)
 
 
-// Bài 6: Nhập 1 số kiểm tra xem số đó số nguyên tố hay ko
+// console.log("Bài 6: Nhập 1 số kiểm tra xem số đó số nguyên tố hay ko")
+// function nguyento(a){
+//     var i;
+//     for(i = 2; a >= i; i++ ){
+//         if(a % i ==0 ){
 
+//         }
+//     }
+// }
+// nguyento(a)
 
-
-
-
-
-// Bài 7: Nhập  1 số. Hiển thị số từ 1 tới chính nó, đồng thời hiển thị tính chẵn lẻ của số hiển thị
-function chan(a){
+console.log("Bài 7: Nhập  1 số. Hiển thị số từ 1 tới chính nó, đồng thời hiển thị tính chẵn lẻ của số hiển thị")
+function lechan(b){
     var i;
-    for( i = 0; i<= a; i++ ){
-        if( i %2 == 0 ){
+    var dem_chan = 0, dem_le = 0 
+    for( i = 0; i<= b; i++ ){
+        if( i % 2 == 0 ){
             console.log(i + " Số Chẵn")
+            dem_chan = dem_chan + 1
         }
         else{
             console.log(i + " Số Lẻ")
+            console.log(dem_le++)
         }
     }
+
+    console.log('Tổng số chẵn: ' + dem_chan)
 }
-chan(8)
+lechan(9)
+
+// var car1 = {type: "vin", color : "black", model : "9800" }
+// var car2 = {type: "vin", color : "blue", model : "700" }
+// var car3 = {type: "vin", color : "red", model : "650" }
+var car4 = {
+    type: "vin", 
+    color : "white",
+    model : "4000",
+    fullname : function(){
+        console.log(this.type)
+    }
+ }
+console.log(this.color)
+// console.log(car2.color)
+// console.log(car3.color)
+// console.log(car4.color)
