@@ -113,3 +113,33 @@
         console.log("Tổng Số Lẻ: " + demle);
     }
     bai7(11)
+
+
+// Bài 1: Cho người dùng nhập vào tên và tuổi. Hãy viết lại tên và tuổi của người đó ra màn hình 
+// bằng hàm document.write, trong đó tên có màu đậm, tuổi được gạch chân. 
+
+// Bài 2: Tạo một nút nhấn (button) có name là welcome, value là " Welcome ".
+// Một textbox có tên là msg, value = "Welcome to".
+
+// Bài 3: Tạo một nút như trong ví dụ 2 và thêm chức năng sau: 
+// Khi người dùng click vào nút welcome thì hiển thị thông báo "Welcome to JavaScript"
+
+// Bài 4: Lấy (đọc) giá trị của một phần tử HTML. Tạo 2 phần tử như trong ví dụ 2 bằng thẻ HTML, 
+// khi người dùng click chuột vào nút Welcome thì hiển thị nội dung chứa trong text có tên là msg.
+
+// Bài 5: Khai báo hàm trong JavaScript và cách liên kết nút nhấn với một hàm. Tạo 2 phần tử như ví dụ 2, khi người dùng 
+// nhấn nút thì gọi một hàm có tên là HienThi, hàm hiển thị có chức năng hiển thịnội dung trong text có tên là msg ở trên.
+
+// Bài 6: Hãy hiển thị ngày và giờ của hệ thống máy tính khi trang Web được nạp. Thông tin hiển thị ra hộp thông báo(aleart)
+
+// Bài 7: Minh hoạ sử khai báo và dùng đối tượng Date để lấy giờ, phút, giây của hệ thống.
+
+// Yêu cầu: Hiển thị Giờ và phút trong thanh tiêu đề của cửa sổ khi trang Web được nạp.
+
+// Hướng dẫn: Giá trị hiển thị trong thanh tiêu đề của trang web được lưu trong thuộc tính title của đối tượng document, 
+// do vậy để hiển thị thông tin trên thanh tiêu đề, bạn cần viết: document.title = <Giá trị>. 
+// Ví dụ, để hiển thị dòng chữ "Hello Every body !", bạn viết: document.title "Hello Every body !"
+
+// Bài 8: Cho người dùng nhập vào năm sinh của họ, sau đó hiển thị tuổi tương ứng.
+
+// Bài Tập Từ: https://quantrimang.com/bai-tap-javascript-co-giai-159572
