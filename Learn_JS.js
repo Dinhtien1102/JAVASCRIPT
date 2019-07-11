@@ -75,6 +75,25 @@
     }
     bai5(9)
 
+    // Bài 6: Nhập 1 số kiểm tra xem số đó số nguyên tố hay ko
+    function bai6(n){
+        var i, dem = 0;
+
+        for(i=1; i<= n; i = i+1){
+            if(n%i==0){
+                console.log(i);
+                dem = dem + 1;
+            }
+        }
+
+        if(dem <= 2){
+            console.log( n + " Là Số Nguyên Tố")
+        }
+        else{
+            console.log( n + " Không Là Số Nguyên Tố")
+        }
+    }
+    bai6(12)
 
     // Bài 7: Nhập  1 số. Hiển thị số từ 1 tới chính nó, đồng thời hiển thị tính chẵn lẻ của số hiển thị; đếm số chẵn đếm số lẻ
     function bai7(e){
