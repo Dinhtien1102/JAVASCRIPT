@@ -3,7 +3,7 @@
 // Bài 2: Nhập vào 5 số tính tích 5 số đó và hiển thị giá trị ra console
 // bài 3: Nhập vào 1 số -> Hiển thị bình phương số đó: Ví dụ nhạp vào 3 => kết quả: 9
 
-    function myFunction(a,b,c,d,e){
+/*    function myFunction(a,b,c,d,e){
         var tong= a+b+c+d+e;
         console.log("Tính Tổng: " + tong);
         var tich= a*b*c*d*e;
@@ -14,7 +14,7 @@
     }
     myFunction(2,3,4,6,9)
 
-/*
+
     Bài tập về for + if else
     Bài 1: Dùng for hiển thị 5 lần "hello world"
     Bài 2: Nhập 1 số kiểm tra đó là số chẵn hay số lẻ
@@ -23,7 +23,7 @@
     Bài 5: Nhập 1 số hiển thị các ước của nó
     Bài 6: Nhập 1 số kiểm tra xem số đó số nguyên tố hay ko
     Bài 7: Nhập  1 số. Hiển thị số từ 1 tới chính nó, đồng thời hiển thị tính chẵn lẻ của số hiển thị; đếm số chẵn đếm số lẻ
-*/
+
 
 
 // Bài 1: Dùng for hiển thị 5 lần "hello world"
@@ -113,8 +113,7 @@
         console.log("Tổng Số Lẻ: " + demle);
     }
     bai7(11)
-
-
+*/
 // Bài 1: Cho người dùng nhập vào tên và tuổi. Hãy viết lại tên và tuổi của người đó ra màn hình 
 // bằng hàm document.write, trong đó tên có màu đậm, tuổi được gạch chân. 
 
@@ -143,3 +142,51 @@
 // Bài 8: Cho người dùng nhập vào năm sinh của họ, sau đó hiển thị tuổi tương ứng.
 
 // Bài Tập Từ: https://quantrimang.com/bai-tap-javascript-co-giai-159572
+
+// bai1
+// var ten= prompt("Tên của bạn")
+// document.write("<b>" + ten + "</b>" + " ")
+// var tuoi=  prompt("Tuổi của bạn")
+// document.write("<u>" + "Tuổi" +" " + tuoi + "</u>")
+// bai2
+//  document.write("Tao Button va Text bang Script<BR>");
+//  document.write("<BR>");
+//  document.write("<input type=button name=welcome value = 'Welcome' ");
+//  document.write("onclick = 'alert ('Welcome to JavaScript');' > ");
+//  document.write("<input type = text name = msg value = 'Welcome to'>");
+
+
+
+//   W3S JavaScript get Date Methods
+
+
+// Bài tập
+// for cho [ array , object] console ra từng giá trị
+// [1, 5, 3, 7, 8]
+
+// {
+//     key_1: 1,
+//     key_2: 5,
+//     key_3: 3,
+//     key_4: 7,
+//     key_5: 8
+// }
+
+var myArray= [1,3,5,7,9]
+for(i=0; i< myArray.length; i++) {
+    console.log(myArray[i])
+}
+
+        var obj =   
+         {
+            key_1: 'tao',
+            key_2: 5,
+            key_3: '3 con heo',
+            key_4: 'hay7',
+            key_5: '8 con bo'
+            }
+ var x;
+ for (x in obj){
+     console.log(obj[x])
+ }  
+     
