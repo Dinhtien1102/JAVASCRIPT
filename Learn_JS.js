@@ -172,21 +172,57 @@
 //     key_5: 8
 // }
 
-var myArray= [1,3,5,7,9]
-for(i=0; i< myArray.length; i++) {
-    console.log(myArray[i])
-}
+// var myArray= [1,3,5,7,9]
+// for(i=0; i< myArray.length; i++) {
+//     console.log(myArray[i])
+// }
 
-        var obj =   
-         {
-            key_1: 'tao',
-            key_2: 5,
-            key_3: '3 con heo',
-            key_4: 'hay7',
-            key_5: '8 con bo'
-            }
- var x;
- for (x in obj){
-     console.log(obj[x])
- }  
-     
+//         var obj =   
+//          {
+//             key_1: 'tao',
+//             key_2: 5,
+//             key_3: '3 con heo',
+//             key_4: 'hay7',
+//             key_5: '8 con bo'
+//             }
+//  var x;
+//  for (x in obj){
+//      console.log(obj[x])
+//  }  
+ 
+//  // với arr & obj có số chẵn và lẻ nhưng chỉ muốn in ra 1 loại
+
+//  var myArr1 = [0, 3, 5, 7, 9, 34, 6, 8]
+//  for (i=0; i<myArr1.length; i++) {
+//      if(myArr1[i] % 2 ==0) {
+//          console.log(myArr1[i])
+//      }
+//  }
+// console.log("Đây là bài tìm giá trị key của obj1 là số chẵn và in ra console.log")
+//  var obj1 =
+//   {
+//     key0: 1,
+//     key1: 0,
+//     key2: 8,
+//     key3: 10,
+//     key4: 9,
+//     key5: 40,
+//     key6: 5,
+//     key7: 3
+//   }
+// var key
+// for(key in obj1) {
+//     if(obj1[key] % 2 == 0) {
+//         console.log(obj1[key])
+//     }
+// }
+
+// Cho 1 chuỗi số in ra màn hình những số nguyên tố
+// Số nguyên tố n là số chỉ chia hết cho 1 và chính nó, là số chỉ có 2 ước, là số không chia hết cho các số từ 2 đến n-1
+var arr2=  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+for (i=0; i<arr2.length; i ++) {    
+    console.log(arr2[i])
+  
+    // if(arr2[i]==2 ; j < arr2[i]-1 ; j++){
+ 
+}
