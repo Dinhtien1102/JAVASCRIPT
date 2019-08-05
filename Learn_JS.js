@@ -219,10 +219,50 @@
 
 // Cho 1 chuỗi số in ra màn hình những số nguyên tố
 // Số nguyên tố n là số chỉ chia hết cho 1 và chính nó, là số chỉ có 2 ước, là số không chia hết cho các số từ 2 đến n-1
-var arr2=  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-for (i=0; i<arr2.length; i ++) {    
-    console.log(arr2[i])
+// var arr2=  [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+// for (i=0; i<arr2.length; i ++) {    
+//     console.log(arr2[i])
   
     // if(arr2[i]==2 ; j < arr2[i]-1 ; j++){
  
+
+// tìm số nguyên trong mảng và hiển thị ra màn hình, số nguyên n là số chỉ có 2 ước, là số không có ước từ 2 đến n-1
+// function nguyento(n) {
+//     var dem=0;
+//     if (n>1) {
+//         for(i = 2; i <= n; i++) {
+//             if(n % i == 0){
+//                 console.log(i)
+//                 dem++;
+//             }
+//         }
+//         if (dem == 1) {
+//             console.log(n + " là số nt")
+        
+//         }
+//         else {
+//             console.log(n+ " không là nt")
+//         }
+//     }
+// }
+//  nguyento(11)
+
+var arr2 = [1,2,3,4,5,6,7,8,9];
+for(i= 0; i< arr2.length; i++) {
+    var dem = 0;
+    for(j=1; j <= arr2[i]; j++){
+        if(arr2[i] % j == 0) {
+            console.log(i)
+            dem++;
+        }
+    }
+    if (dem == 2) {
+        console.log(arr2[i] + " là số nguyên tố")
+    }
+    else {
+        console.log(arr2[i] + " Không là số nguyên tố")
+    }
+}
+function sliderClick() {
+
 }
