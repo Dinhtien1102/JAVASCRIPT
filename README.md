@@ -19,7 +19,7 @@
         - Mỗi vị trí của class tương ứng với 1 số bắt đầu từ 0 (thêm giá trị tham số vào sự kiện của function        truyền  vào tham số bên sử lí function từ đó truyền tham số vào vị trí class ví dụ:                    document.getElementsByClassName('test')[vị trí bắt đàu từ 0])
 
 ### Cần Học
-    Kiểu dữ liệu thuần túy đời sống
+    Kiểu dữ liệu 
         - number: 1, 2, 3
         - boolean: true | false
         - string: "Day la mot string"
